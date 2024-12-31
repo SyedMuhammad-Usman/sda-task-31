@@ -114,9 +114,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 Created by **Usman** as part of a software engineering learning journey.
 ```
 
----
-
-### Instructions for Use
-1. Replace `yourusername` in the GitHub URL with your actual GitHub username.
-2. Ensure the `src` folder contains all three Java files (`LegacySystem.java`, `Middleware.java`, and `BankingApp.java`).
-3. Add a `LICENSE` file if needed (e.g., MIT License).
