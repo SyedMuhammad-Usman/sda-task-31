@@ -1,7 +1,9 @@
-
 # Software Architecture Challenges and Solutions
 
 This repository explores common challenges faced in software architecture and provides solutions using practical examples. It includes scenarios, architectural problems, and a detailed Java-based solution for one of the issues.
+
+---
+
 
 
 ## Overview
@@ -56,7 +58,65 @@ The implementation uses Java. Below are the key components:
 - **Middleware.java**: Converts legacy data into JSON.
 - **BankingApp.java**: Modern application that consumes data from the middleware.
 
+Check the `src/` folder for the code.
+
+---
+
+## How to Run the Code
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/software-architecture-challenges.git
+   ```
+2. **Navigate to the Project Directory**
+   ```bash
+   cd software-architecture-challenges
+   ```
+3. **Add JSON Dependency**
+   If using Maven, add this to your `pom.xml`:
+   ```xml
+   <dependency>
+       <groupId>org.json</groupId>
+       <artifactId>json</artifactId>
+       <version>20230618</version>
+   </dependency>
+   ```
+4. **Compile and Run**
+   Use your favorite IDE (e.g., IntelliJ, Eclipse) or the command line:
+   ```bash
+   javac src/*.java
+   java -cp src BankingApp
+   ```
+
+---
+
+## Technologies Used
+
+- **Java:** For the implementation.
+- **JSON Library:** To format data.
+- **GitHub:** For version control and collaboration.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you have ideas for additional problems or solutions, feel free to open a pull request or submit an issue.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
 
 ### Author
 Created by **Usman** as part of a software engineering learning journey.
 ```
+
+---
+
+### Instructions for Use
+1. Replace `yourusername` in the GitHub URL with your actual GitHub username.
+2. Ensure the `src` folder contains all three Java files (`LegacySystem.java`, `Middleware.java`, and `BankingApp.java`).
+3. Add a `LICENSE` file if needed (e.g., MIT License).
